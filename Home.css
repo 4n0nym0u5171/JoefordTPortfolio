@@ -2,6 +2,8 @@ body{
     background-color: #FAF7F0;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 .headr{
     display: block;
@@ -15,7 +17,7 @@ body{
 }
 .leftheadr{
     justify-content: left;
-    margin-left: 16px;
+    margin-left: 32px;
 }
 .flexrightheadr{
     width: 25vw;
@@ -27,7 +29,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: #4A4947;
-    margin-right: 16px;
+    margin-right: 32px;
     height: 100%;
     font-size: 28px;
 }
@@ -35,7 +37,6 @@ body{
     background-color: #D8D2C2;
 }
 .headr{
-    margin-left: 4px;
     display: flex;
     background-color: #B17457;
     flex-direction: row;
@@ -46,13 +47,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    margin-left: 16px;
-    margin-right: 16px;
 }
 .bodybg{
     display: block;
     background-color: #D8D2C2;
-    width: 90%;
+    padding: 32px;
 }
 
 footer{
@@ -62,5 +61,7 @@ footer{
     display: block;
     background-color: #4A4947;
     color:#FAF7F0;
-    margin-top: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
